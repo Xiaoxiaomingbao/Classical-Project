@@ -12,7 +12,7 @@ A command-line application designed to write ancient Greek and classical Latin t
 
 `@model [output model] [language] [option]`
 
-Output models: `clip` copying the parsed text to clipboard every time, `file` writing the parsed text to a textual file
+Output models: `clip` copying the parsed text to clipboard every time, `[file path]` appending the parsed text to a text file
 
 Language models: `la` classical Latin, `gr` ancient Greek, `np` text that will not be parsed
 

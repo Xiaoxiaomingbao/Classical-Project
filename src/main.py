@@ -1,13 +1,21 @@
 import pyperclip
+from src.Latin import Latin
+from src.Greek import Greek
 
 
 def main():
+    configured = False  # configured or not
+    la_parser = Latin()
+    gr_parser = Greek()
+
     while 1:
         typed = input(">>>")
-        if typed.startswith('@'):  # typing process terminated
-            if typed == "@help":
+        if typed.startswith('@'):
+            pass
+            # typing process terminated
+            if typed.startswith("@model "):
                 pass
-            elif typed.startswith("@model "):
+            elif typed == "@help":
                 pass
             elif typed == "@start":
                 pass
